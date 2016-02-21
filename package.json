@@ -7,7 +7,7 @@
     "ball": "webpack -w  --config webpack.all.config.js",
     "client": "webpack -w  --config webpack.client.config.js",
     "start": "webpack -w ",
-    "start_windows": "set NODE_ENV=production&&node index.js"
+    "start_windows": "set NODE_ENV=production&&node app.js"
   },
   "devDependencies": {
     "express-oi": "0.0.21",
